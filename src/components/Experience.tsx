@@ -27,7 +27,7 @@ const Experience: React.FC = () => {
             onMouseLeave={handleMouseLeave}
             className="absolute top-96"
           >
-            <img src="src/assets/planet1.gif" className="w-48 h-48" />
+            <img src="/planet1.gif" className="w-48 h-48" />
             {hovered === "planet" && (
               <span className="absolute p-1 text-center">
                 Self-taught web development before starting comsci at unsw
@@ -39,7 +39,7 @@ const Experience: React.FC = () => {
             onMouseLeave={handleMouseLeave}
             className="absolute top-48 right-48 "
           >
-            <img src="src/assets/ufo.gif" className="w-32 h-32" />
+            <img src="/ufo.gif" className="w-32 h-32" />
             {hovered === "ufo" && (
               <span className="absolute p-1 text-center rounded-lg">
                 6 month software engineering internship at a startup @
@@ -58,7 +58,7 @@ const Experience: React.FC = () => {
             onMouseLeave={handleMouseLeave}
             className="absolute bottom-24 left-96"
           >
-            <img src="src/assets/metero.gif" className="h-36 w-36" />
+            <img src="/metero.gif" className="h-36 w-36" />
             {hovered === "meteor" && (
               <span className="absolute p-1 text-center ">
                 Competed in the 2024 Blueprint hackathon
@@ -70,7 +70,7 @@ const Experience: React.FC = () => {
             onMouseLeave={handleMouseLeave}
             className="absolute bottom-20 right-48"
           >
-            <img src="src/assets/milkway.gif" className="w-64 h-64" />
+            <img src="/milkway.gif" className="w-64 h-64" />
             {hovered === "milkyway" && (
               <span className="absolute flex flex-col p-1 text-center rounded-lg">
                 <span className="font-bold">Comp subjects completed:</span>

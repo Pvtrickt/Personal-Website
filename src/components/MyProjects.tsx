@@ -38,7 +38,7 @@ const MyProjects: React.FC = () => {
             className="absolute flex flex-col items-center top-[400px] right-[900px]"
           >
             <img
-              src="src/assets/dictionary screenshot.png"
+              src="/dictionary screenshot.png"
               className="w-[55%] h-[55%] rounded-full"
             />
             {hovered === "planet" && (
@@ -58,10 +58,7 @@ const MyProjects: React.FC = () => {
             onMouseLeave={handleMouseLeave}
             className="absolute top-48 right-10 "
           >
-            <img
-              src="src/assets/schedulaIcon.png"
-              className="w-[50%] h-[50%]"
-            />
+            <img src="/schedulaIcon.png" className="w-[50%] h-[50%]" />
             {hovered === "ufo" && (
               <a href="https://devpost.com/software/unitasker">
                 <span className="flex items-center underline gap-x-2">
@@ -76,7 +73,7 @@ const MyProjects: React.FC = () => {
             onMouseLeave={handleMouseLeave}
             className="absolute bottom-[150px] left-[1000px]"
           >
-            <img src="src/assets/haikyuu.png" className="h-[50%] w-[50%]" />
+            <img src="/haikyuu.png" className="h-[50%] w-[50%]" />
             {hovered === "meteor" && (
               <span className="absolute flex flex-row items-center p-1 rounded-lg 40 gap-x-2">
                 <FontAwesomeIcon

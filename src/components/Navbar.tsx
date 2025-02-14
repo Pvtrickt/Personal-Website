@@ -23,11 +23,7 @@ const Navbar: React.FC<{ onNavItemClick: (section: string) => void }> = ({
                   handleNavItemClick("headerContainer");
                 }}
               >
-                <img
-                  src={"src/assets/Patrick Truong.png"}
-                  alt="logo"
-                  className="w-12"
-                />
+                <img src={"/Patrick Truong.png"} alt="logo" className="w-12" />
               </button>
             </HoverAnimations>
           </NavItemAnimations>
