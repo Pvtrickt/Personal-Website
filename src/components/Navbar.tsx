@@ -1,5 +1,4 @@
 import { useState } from "react";
-import Logo from "/Users/patricktruong/Documents/Projects/portfolio/src/assets/Patrick Truong.png";
 import HoverAnimations from "./HoverAnimation";
 import NavItemAnimations from "./NavItemAnimations";
 import Reveal from "./Reveal";
@@ -24,7 +23,11 @@ const Navbar: React.FC<{ onNavItemClick: (section: string) => void }> = ({
                   handleNavItemClick("headerContainer");
                 }}
               >
-                <img src={Logo} alt="logo" className="w-12" />
+                <img
+                  src={"src/assets/Patrick Truong.png"}
+                  alt="logo"
+                  className="w-12"
+                />
               </button>
             </HoverAnimations>
           </NavItemAnimations>
