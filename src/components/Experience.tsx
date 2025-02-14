@@ -30,7 +30,7 @@ const Experience: React.FC = () => {
             <img src="src/assets/planet1.gif" className="w-48 h-48" />
             {hovered === "planet" && (
               <span className="absolute p-1 text-center">
-                Self-taught web development before starting comsci at unsw hjhhj
+                Self-taught web development before starting comsci at unsw
               </span>
             )}
           </li>
